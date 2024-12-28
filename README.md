@@ -57,7 +57,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Preview
 
-[!alt text](https://github.com/VIDAKHOSHPEY22/Space-3D/blob/main/assets/images/preview.png)
+![alt text](https://github.com/VIDAKHOSHPEY22/Space-3D/blob/main/assets/images/preview.png))
+
 
 - Watch live server here , plz wait for loading
 https://vidakhoshpey22.github.io/Space-3D/
