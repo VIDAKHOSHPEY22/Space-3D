@@ -53,13 +53,14 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## Acknowledgements
 - Special thanks to the creators of Bootstrap, Font Awesome, and Model Viewer for their amazing tools.
 
-##Preview
+---
+
+## Preview
+
 [!alt text](https://github.com/VIDAKHOSHPEY22/Space-3D/blob/main/assets/images/preview.png)
 
-Watch live server here , plz wait for loading
+- Watch live server here , plz wait for loading
 https://vidakhoshpey22.github.io/Space-3D/
-
----
 
 © 2024 Vida
 
