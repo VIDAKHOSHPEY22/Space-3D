@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #000000;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(144, 126, 126);
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover{
+            color: rgb(255, 255, 255);
+        }
+        .container {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            color: aliceblue;
+        }
+        .container img {
+            width: 200px;
+            margin-left: 70%;
+            transition: transform 0.3s;
+        }
+        .container img:hover {
+            transform: scale(2);
+        }
+        .content {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .container img {
+                width: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="signup.html">Signup</a>
+    </nav>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <img src="./files/moon.png" alt="Moon">
+        <div class="content">
+            <p>Welcome to our contact page. Feel free to reach out to us with any questions or comments you may have. We are here to help you! Crazy Coders</p>
+            <p>Email: vviiddaa2@gmail.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 (Crazy Coders) Space Website
+    </footer>
+</body>
+</html>

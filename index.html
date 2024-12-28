@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./files/logo.png">
+</head>
+<body>
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"> Space Website</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Sign up</a>
+                    </li>
+                    <input placeholder="Search..." type="search" style="border-radius: 50px; "> <button type="submit" style="border-radius: 50px; background-color: blue; color: yellow;">Search</button></li>
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <video class="video-bg" autoplay muted loop>
+        <source src="./files/back.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="earth-container" class="d-flex justify-content-center align-items-center">
+        <div class="planet-text">
+            <h2>Earth</h2>
+            <p>Explore the wonders of our planet and beyond!</p>
+            <p>Earth is the third planet from the Sun and the only known planet to support life. It has a diverse environment with vast oceans, mountains, and forests. Earth’s atmosphere is rich in oxygen and nitrogen, making it suitable for living organisms. The planet is about 4.5 billion years old and has one natural satellite, the Moon.</p>
+        </div>
+        <model-viewer src="./assets/Earth.glb" camera-controls auto-rotate style="width: 800px; height: 500px;"></model-viewer>
+    </div>
+    <div id="mars-container" class="d-flex justify-content-center align-items-center">
+        <div class="planet-text">
+            <h2>Mars</h2>
+            <p>Discover the mysteries of the Red Planet.</p>
+            <p>Mars, known as the "Red Planet," is the fourth planet from the Sun. Its red color comes from iron oxide on its surface. Mars has the largest volcano, Olympus Mons, and a huge canyon, Valles Marineris. It has two small moons, Phobos and Deimos. Scientists are interested in Mars because of evidence suggesting it once had water.</p>
+        </div>
+        <model-viewer src="./assets/Mars.glb" camera-controls auto-rotate style="width: 800px; height: 500px;"></model-viewer>
+    </div>
+    <div id="jupiter-container" class="d-flex justify-content-center align-items-center">
+        <div class="planet-text">
+            <h2>Jupiter</h2>
+            <p>Marvel at the largest planet in our solar system.</p>
+            <p>Jupiter is the largest planet in our solar system, more than twice as massive as all the other planets combined. It is a gas giant, primarily composed of hydrogen and helium. Jupiter is known for its stunning cloud bands and the Great Red Spot, a massive storm that has been raging for centuries. The planet has at least 79 moons, with Ganymede being the largest moon in the solar system.</p>
+        </div>
+        <model-viewer src="./assets/Jupiter.glb" camera-controls auto-rotate style="width: 800px; height: 500px;"></model-viewer>
+    </div>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Vida</p>
+        <div class="contact-icons">
+            <a href="vviiddaa2@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/VIDAKHOSHPEY22">Follow me<img src="./files/github.png" alt="Download Icon" class="download-icon"></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+</body>
+</html>
