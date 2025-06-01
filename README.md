@@ -46,9 +46,9 @@ Contributions are welcome! Please fork the repository and create a pull request 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
 ## Contact
-- **Email**: vviiddaa2@gmail.com
+- **Email**: vviiddaa2@gmail.com / yaldatwin@gmail.com
 - **LinkedIn**: LinkedIn Profile
-- **GitHub**: VIDAKHOSHPEY22
+- **GitHub**: VIDAKHOSHPEY22 / YALDAKHOSHPEY
 
 ## Acknowledgements
 - Special thanks to the creators of Bootstrap, Font Awesome, and Model Viewer for their amazing tools.
@@ -63,5 +63,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 - Watch live server here , plz wait for loading
 https://vidakhoshpey22.github.io/Space-3D/
 
-© 2024 Vida
+© 2024 Vida & Yalda
 
